@@ -36,6 +36,21 @@ function HomePage() {
           </div>
         ))}
       </div>
+      <pre>
+        제작보고서<br />
+        1. 제미나이 3.5 Flash를 사용하여 코드를 작성했습니다<div className="br"></div>
+        2. 프롬프트는<br /><br />
+
+        간단한쇼핑몰제작<br />
+        – React router 를 이용한 다중 페이지이동<br />
+        – 제작보고서포함<br />
+        – Git hub의 저장소에 코드를저장<br />
+        – 웹호스팅플랫폼(Vercel)을사용하여배포 jsx형식으로 한 디렉토리로<br /><br />
+
+        입니다.
+
+      </pre>
+
     </div>
   );
 }
@@ -109,5 +124,8 @@ export default function App() {
         <Route path="/cart" element={<CartPage cart={cart} setCart={setCart} />} />
       </Routes>
     </BrowserRouter>
+
   );
+
+
 }
